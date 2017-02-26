@@ -1,0 +1,16 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Django ES6-Webpack-Bootstrap Integration </title>
+	{% render_bundle 'main' %}
+</head>
+
+<body>
+	<h1> It works! </h1>
+	<p> Please refer to console for result </p>
+	<p id="result" class="text text-info"> </p>
+</body>
+
+</html>
